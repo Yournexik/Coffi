@@ -1,0 +1,208 @@
+body{
+    margin:0;
+
+    background:#F5DEB3;
+
+font-family:'Jua'"Jua, Lemon"
+}
+
+/* NAGŁÓWEK */
+
+header{
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    font-size: 25px;
+}
+
+nav{
+    width: 55%;
+    height: 70px;
+
+    background-color: #A95D32;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 15px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.logo-box{
+    flex:1;
+
+    background:#B48C70;
+
+    border-bottom-left-radius:50px;
+
+    display:flex;
+
+    height: 120px;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:10px;
+
+    position:relative;
+
+    overflow:hidden;
+}
+
+.logo-box::before,
+.logo-box::after{
+    content:"";
+
+    position:absolute;
+
+    border-radius:50%;
+}
+
+.logo-box::before{
+    width:220px;
+    height:220px;
+
+    background:rgba(169,93,50,.2);
+
+    right:90px;
+
+    top:-100px;
+}
+
+.logo-box::after{
+    width:300px;
+    height:260px;
+
+    background:rgba(169,93,50,.2);
+
+    right:10;
+
+    top:-120px;
+}
+
+.logo-box h1{
+    color:white;
+
+    font-family:'Lemon', serif;
+
+    font-size:48px;
+
+    z-index:2;
+}
+
+.logo-box img{
+    width:45px;
+
+    z-index:2;
+}
+
+/* GŁÓWNA CZĘŚĆ */
+
+main{
+    display:flex;
+}
+
+.calculator{
+    width:60%;
+
+    background:#E8E8E8;
+
+    padding:25px;
+}
+
+.coffee-menu{
+    width:30%;
+
+    padding:25px;
+}
+
+h2{
+    color:#6d3f1d;
+}
+
+.form-box{
+    background:#B48C70;
+
+    padding:20px;
+
+    border-radius:4px;
+}
+
+label{
+    display:block;
+
+    color:white;
+
+    margin-top:10px;
+}
+
+input{
+    width: 90%;
+}
+.result{
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    margin-top:15px;
+}
+
+button{
+    background:#A95D32;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 25px;
+
+    font-family:'Jua', sans-serif;
+
+    cursor:pointer;
+}
+
+.result button{
+    background:#89FD7F;
+
+    color:#5b4c00;
+}
+
+ul li{
+    margin-bottom:8px;
+}
+
+.coffee-menu button{
+    margin-top:30px;
+}
+
+footer{
+    padding:-10%;
+    
+
+    font-size:12px;
+
+    color:#6d3f1d;
+}
+.jua-regular {
+  font-family: "Jua", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.lemon-regular {
+  font-family: "Lemon", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.container{
+    width: 900px;
+
+    margin: 20px auto;
+}
